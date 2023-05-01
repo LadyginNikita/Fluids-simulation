@@ -12,6 +12,10 @@ Widget::Widget(QWidget *parent)
     m_scene->setSceneRect(0,0,780,580);
 
     ui->graphicsView->setScene(m_scene);
+
+    QPointF pos(m_scene->sceneRect().center());
+    EllipseItem *ellipse = new EllipseItem(pos.x(), pos.y(), 50, 50);
+    m_scene->addItem(ellipse);
 }
 
 Widget::~Widget()
