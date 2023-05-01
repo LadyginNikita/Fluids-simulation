@@ -20,8 +20,8 @@ set(PROJECT_SOURCES
         widget.h
         widget.ui
 
-        ellipsitem.h
-        ellipsitem.cpp
+        ellipseitem.cpp
+        ellipseitem.h
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)

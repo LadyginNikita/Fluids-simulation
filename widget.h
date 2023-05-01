@@ -7,7 +7,7 @@
 #include <QGraphicsScene>
 #include <QGraphicsItem>
 
-#include "ellipsitem.h"
+#include "ellipseitem.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class Widget; }
